@@ -1,0 +1,52 @@
+@import 'pixel-retroui/dist/index.css';
+
+@font-face {
+	font-family: 'Minecraft';
+	src: url('minecraft.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  body {
+	font-family: 'Minecraft', sans-serif;
+	
+  }
+
+  body {
+	@apply bg-black text-white;
+  }
+  
+  .border-white {
+	border-color: #FFFFFF;
+  }
+  
+  .shadow-white {
+	box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.1);
+  }
+  
+  .bg-page-bg {
+	background-color: #000000;
+  }
+  
+  .bg-card-bg {
+	background-color: #000000;
+  }
+  
+  .bg-textarea-bg {
+	background-color: #000000;
+  }
+
+::-webkit-scrollbar {
+	display: none; 
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
