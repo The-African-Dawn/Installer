@@ -1,4 +1,6 @@
 # ⚛ African Dawn Launcher
+DO NOT look at the code. That is damn bad because we had only some hours to create this launcher.
+SERIOUSLY. DO NOT LOOK AT THE CODE.
 
 ## Installation
 
